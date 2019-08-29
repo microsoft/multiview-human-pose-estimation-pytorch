@@ -114,6 +114,8 @@ ${POSE_ROOT}
 ```
 
 
+**Limb length prior for 3D Pose Estimation**, please download the limb length prior data from 链接: https://pan.baidu.com/s/1xW4pOdpCeysdvbK33d5YrA code: kgke
+put it in data/pict/pairwise.pkl
 
 
 ## 2D Training and Testing
