@@ -1,4 +1,6 @@
-Multiview 2D + 3D Human pose estimation using pytorch
+This repo implements our ICCV paper "Cross View Fusion for 3D Human Pose Estimation"
+https://chunyuwang.netlify.com/img/ICCV_Cross_view_camera_ready.pdf
+
 
 # Quick start
 ## Installation
