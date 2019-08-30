@@ -38,7 +38,7 @@ def project_point_radial(x, R, T, f, c, k, p):
     r2 = np.sum(y**2, axis=0)
     radial = 1 + np.einsum('ij,ij->j', np.tile(k, (1, n)),
                            np.array([r2, r2**2, r2**3]))
-    tan = p[0] * y[1] + p[1] * y[0]
+    tan = 2 * p[0] * y[1] + 2 * p[1] * y[0]
     y = y * np.tile(radial + tan,
                     (2, 1)) + np.outer(np.array([p[1], p[0]]).reshape(-1), r2)
     ypixel = (f * y) + c

@@ -46,7 +46,7 @@ def project_point_radial(x, R, T, f, c, k, p):
     r2exp = torch.cat([r2, r2**2, r2**3], 0)
     radial = 1 + torch.einsum('ij,ij->j', kexp, r2exp)
 
-    tan = p[0] * y[1] + p[1] * y[0]
+    tan = 2 * p[0] * y[1] + 2 * p[1] * y[0]
     corr = (radial + tan).repeat((2, 1))
 
     y = y * corr + torch.ger(torch.cat([p[1], p[0]]).view(-1), r2.view(-1))
