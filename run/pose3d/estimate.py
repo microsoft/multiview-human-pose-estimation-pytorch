@@ -90,6 +90,7 @@ def main():
             cnt += 1
         heatmaps = np.array(heatmaps)
 
+        # This demo uses GT root locations and limb length; but can be replaced by statistics
         grid_center = poses[0][0]
         body = HumanBody()
         limb_length = compute_limb_length(body, poses[0])
@@ -97,7 +98,7 @@ def main():
                           pairwise, config)
         mpjpe = np.mean(np.sqrt(np.sum((prediction - poses[0])**2, axis=1)))
         mpjpes.append(mpjpe)
-    print(np.mean(mpjpe))
+    print(np.mean(mpjpes))
 
 
 if __name__ == '__main__':
