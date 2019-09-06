@@ -17,7 +17,8 @@ https://chunyuwang.netlify.com/img/ICCV_Cross_view_camera_ready.pdf
            └── mobilenet_v2.pth.tar
    ```
    They can be downloaded from the following link:
-   https://1drv.ms/f/s!AjX41AtnTHeThyJfayggVZSd0M6P
+   https://onedrive.live.com/?authkey=%21AF9rKCBVlJ3Qzo8&id=93774C670BD4F835%21930&cid=93774C670BD4F835
+   
    
 
 4. Init output(training model output directory) and log(tensorboard log directory) directory.
