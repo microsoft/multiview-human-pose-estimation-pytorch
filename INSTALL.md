@@ -45,7 +45,7 @@ https://chunyuwang.netlify.com/img/ICCV_Cross_view_camera_ready.pdf
    ```
 
 ## Data preparation
-**For MPII data**, please download from [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/), the original annotation files are matlab's format. We have converted to json format, you also need download them from [OneDrive](https://1drv.ms/f/s!AhIXJn_J-blWzyhpADBbpJRusuT0).
+**For MPII data**, please download from [MPII Human Pose Dataset](http://human-pose.mpi-inf.mpg.de/), the original annotation files are matlab's format. We have converted to json format, you also need download them from [OneDrive](https://1drv.ms/u/s!AjX41AtnTHeTiE3HX1HCYK2QcE0V?e=l9c3lb).
 Extract them under {POSE_ROOT}/data, and make them look like this:
 
 ```
