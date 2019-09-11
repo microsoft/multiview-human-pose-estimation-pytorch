@@ -14,3 +14,5 @@ For more information see the [Code of Conduct FAQ](https://opensource.microsoft.
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
 ## Please see [INSTALL.md](https://github.com/microsoft/multiview-human-pose-estimation-pytorch/blob/master/INSTALL.md) for the basic usage of the code.
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/cross-view-fusion-for-3d-human-pose/3d-human-pose-estimation-on-human36m)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-human36m?p=cross-view-fusion-for-3d-human-pose)
