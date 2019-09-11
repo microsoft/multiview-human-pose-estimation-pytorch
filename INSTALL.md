@@ -83,8 +83,7 @@ ${POSE_ROOT}
 
 
 
-**For Human36M data**, please download annotations from [BaiduPan](https://pan.baidu.com/s/1V65vwuAtTUd5Wy5IDlGiaw)
-Extract them under {POSE_ROOT}/data, and make them look like this:
+**For Human36M data**, please follow https://github.com/CHUNYUWANG/H36M-Toolbox to prepare images and annotations, and make them look like this:
 
 ```
 ${POSE_ROOT}
@@ -97,8 +96,6 @@ ${POSE_ROOT}
             |-- s_01_act_02_subact_01_ca_01 
             |-- s_01_act_02_subact_01_ca_02
 ```
-
-The images should be downloaded from H36M website following (https://github.com/anibali/h36m-fetch). 
 
 If you zip the image files into a single zip file, you should organize the data like this:
 ```
