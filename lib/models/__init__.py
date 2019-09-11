@@ -10,11 +10,9 @@ from __future__ import division
 from __future__ import print_function
 
 import models.pose_resnet
-import models.pose_resnet_antialiased
 import models.pose_mobilenetv2
 import models.pose_hrnet
 import models.multiview_pose_resnet
 import models.multiview_pose_mobilenetv2
 import models.multiview_pose_hrnet
-import models.multiview_pose_resnet_antialiased
 
