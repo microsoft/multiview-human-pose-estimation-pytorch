@@ -78,7 +78,7 @@ def main():
             cameras.append(camera)
 
             poses.append(
-                camera_to_world_frame(datum['joints_3d'], camera['R'],
+                camera_to_world_frame(datum['joints_3d_camera'], camera['R'],
                                       camera['T']))
 
             box = {}
