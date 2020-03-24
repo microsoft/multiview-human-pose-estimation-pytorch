@@ -141,9 +141,3 @@ If you use our code or models in your research, please cite with:
 }
 ```
 
-### Acknowledgement
-This repo uses a lot of code from the following repo:
-https://github.com/microsoft/human-pose-estimation.pytorch
-
-We would like to thank the authors for publishing their code.
-
