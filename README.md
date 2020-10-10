@@ -113,7 +113,7 @@ ${POSE_ROOT}
 
 
 **Limb length prior for 3D Pose Estimation**, please download the limb length prior data from 
-https://1drv.ms/u/s!AjX41AtnTHeTiQt7xLFmMLrcBuYq?e=KSia8L
+https://1drv.ms/u/s!AjX41AtnTHeTiQqGeDYkriGPZ04o?e=ZZcH9H
 
 put it in data/pict/pairwise.pkl
 
